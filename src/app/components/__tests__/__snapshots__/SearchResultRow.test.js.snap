@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResultRow renders correctly 1`] = `
+<div
+  className="component-search-result-row"
+>
+  <span
+    className="from"
+  />
+  <span
+    className="to"
+  />
+  <span
+    className="price"
+  />
+</div>
+`;
