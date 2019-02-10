@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 
-import SearchResultRow from "../SearchResultRow/SearchResultRow";
+import SearchResultRow from "./SearchResultRow/SearchResultRow";
 import "./SearchResultList.scss";
 
 class SearchResultList extends PureComponent {

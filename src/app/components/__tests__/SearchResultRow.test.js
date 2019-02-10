@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import SearchResultRow from '../SearchResultRow/SearchResultRow';
+import SearchResultRow from '../SearchResultList/SearchResultRow/SearchResultRow';
 
 describe('SearchResultRow', () => {
   it('renders correctly', () => {
