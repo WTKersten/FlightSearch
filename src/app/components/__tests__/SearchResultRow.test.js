@@ -1,10 +1,16 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import SearchResultRow from '../SearchResultRow/SearchResultRow';
 
 describe('SearchResultRow', () => {
   it('renders correctly', () => {
-    const component = shallow(<SearchResultRow />);
+    const props = {
+      id: 1,
+      from: 'Amsterdam (AMS)',
+      to: 'London (STD)',
+      price: '€ 30,00'
+    };
+    const component = mount(<SearchResultRow {...props} />);
     expect(component).toMatchSnapshot();
   });
 });

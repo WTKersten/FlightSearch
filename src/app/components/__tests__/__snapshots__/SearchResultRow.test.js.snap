@@ -1,17 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SearchResultRow renders correctly 1`] = `
-<div
-  className="component-search-result-row"
+<SearchResultRow
+  from="Amsterdam (AMS)"
+  id={1}
+  price="€ 30,00"
+  to="London (STD)"
 >
-  <span
-    className="from"
-  />
-  <span
-    className="to"
-  />
-  <span
-    className="price"
-  />
-</div>
+  <div
+    className="component-search-result-row"
+  >
+    <span
+      className="from"
+    >
+      Amsterdam (AMS)
+    </span>
+    <span
+      className="to"
+    >
+      London (STD)
+    </span>
+    <span
+      className="price"
+    >
+      € 30,00
+    </span>
+  </div>
+</SearchResultRow>
 `;
