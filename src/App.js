@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from './app/components/header/Header';
 import SearchInput from './app/components/searchinput/SearchInput';
 import SearchResultList from './app/components/SearchResultList/SearchResultList';
-import filterFlights from './filterFlights';
+import filterFlights from './app/data/filterFlights';
 
 import './App.scss';
 
