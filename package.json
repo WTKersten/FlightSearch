@@ -4,7 +4,8 @@
   "description": "Example setup of a react project with redux",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --mode development --config webpack.config.dev.js --watch",
+    "build": "webpack --mode production --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
