@@ -1,0 +1,14 @@
+@import '../../../styles/variables.scss';
+
+.component-search-result-row {
+  padding: 20px 10px;
+  border: 1px solid $color-grey;
+
+  .from::after {
+    content: ' - '
+  }
+  .price {
+    color: $color-green;
+    float: right;
+  }
+}

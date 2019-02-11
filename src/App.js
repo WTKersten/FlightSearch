@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Header from './app/components/header/Header';
-import SearchInput from './app/components/searchinput/SearchInput';
-import SearchResultList from './app/components/SearchResultList/SearchResultList';
-import filterFlights from './app/data/filterFlights';
+import Header from './components/header/Header';
+import SearchInput from './components/searchinput/SearchInput';
+import SearchResultList from './components/SearchResultList/SearchResultList';
+import filterFlights from './data/filterFlights';
 
 import './App.scss';
 
@@ -23,7 +23,7 @@ class App extends Component {
   
   render() {
     return (
-      <div>
+      <div className="container-flight-search">
         <Header />
         <SearchInput textChange={this.handleSearchChange}/>
         <SearchResultList flights={this.state.filteredFlights}/>

@@ -45,6 +45,9 @@
   },
   "jest": {
     "snapshotSerializers": ["enzyme-to-json/serializer"],
-    "setupFiles": ["./src/setupTests.js"]
+    "setupFiles": ["./src/setupTests.js"],
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    }
   }
 }

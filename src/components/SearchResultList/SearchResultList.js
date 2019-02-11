@@ -7,7 +7,7 @@ import "./SearchResultList.scss";
 class SearchResultList extends PureComponent {
   render() {
     return (
-      <div className="component-flightData-results">
+      <div className="component-search-result-list">
         {this.props.flights.map(flight => (
           <SearchResultRow
             key={flight.id}

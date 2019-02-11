@@ -12,7 +12,7 @@ class SearchInput extends PureComponent {
     return (
       <div className="component-search-input">
         <div>
-          <input onChange={this.handleChange} />
+          <input className="search-input" onChange={this.handleChange} />
         </div>
       </div>
     );

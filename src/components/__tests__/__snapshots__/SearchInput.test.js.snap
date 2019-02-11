@@ -6,6 +6,7 @@ exports[`SearchInput renders correctly 1`] = `
 >
   <div>
     <input
+      className="search-input"
       onChange={[Function]}
     />
   </div>
